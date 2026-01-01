@@ -1,0 +1,198 @@
+/*
+ * CSS Theme Variation Generator
+ * Design Name: Prism Plus Vibe
+ * Base Design: Prism Plus
+ * Variation Type: analogous
+ * Theme: Dark
+ * Generated: 2025-12-31 19:20:04
+ * 
+ * This is an enhanced variation that maintains the design language
+ * of the original theme while adding unique characteristics.
+ * 
+ * Features:
+ * - Harmonious color variations
+ * - Consistent design patterns
+ * - Full responsive support
+ * - Complete component library
+ */
+
+/* ========================================
+   CSS Custom Properties (Variables)
+   ======================================== */
+
+:root {
+  /* Color Palette - Enhanced Variation */
+  --color-primary-50: #3d0d2b;
+  --color-primary-100: #601442;
+  --color-primary-200: #811b5a;
+  --color-primary-300: #a32272;
+  --color-primary-400: #c32b89;
+  --color-primary-500: #d57a41;
+  --color-primary-600: #dd9263;
+  --color-primary-700: #e484bf;
+  --color-primary-800: #eac1a7;
+  --color-primary-900: #f3c8e2;
+  --color-secondary-50: #081242;
+  --color-secondary-100: #0e1c65;
+  --color-secondary-200: #128a76;
+  --color-secondary-300: #18ae94;
+  --color-secondary-400: #1dd0b2;
+  --color-secondary-500: #35e2c6;
+  --color-secondary-600: #59e6cf;
+  --color-secondary-700: #7cecd9;
+  --color-secondary-800: #a1aef1;
+  --color-secondary-900: #c3f6ed;
+  --color-accent-50: #4c2000;
+  --color-accent-100: #712f01;
+  --color-accent-200: #9a3f00;
+  --color-accent-300: #c45200;
+  --color-accent-400: #eb6302;
+  --color-accent-500: #fc781c;
+  --color-accent-600: #fd8e43;
+  --color-accent-700: #fda86a;
+  --color-accent-800: #fcbf94;
+  --color-accent-900: #fdd9bd;
+  --color-gray-50: #141a1e;
+  --color-gray-100: #232d36;
+  --color-gray-200: #35434f;
+  --color-gray-300: #465869;
+  --color-gray-400: #546c7f;
+  --color-gray-500: #658197;
+  --color-gray-600: #7d95a8;
+  --color-gray-700: #96aab9;
+  --color-gray-800: #afbec9;
+  --color-gray-900: #c7d2da;
+  --color-gray-950: #e1e6ea;
+  --color-success-500: #42d681;
+  --color-warning-500: #f5b23c;
+  --color-error-500: #e25353;
+  --color-info-500: #62a5e8;
+  --color-bg-primary: #c6dad8;
+  --color-bg-secondary: #afb1c9;
+  --color-bg-tertiary: #96aab9;
+  --color-text-primary: #232437;
+  --color-text-secondary: #456866;
+  --color-text-tertiary: #556d81;
+  --color-secondary-700);
+}
+
+.badge-success {
+  background-color: #d0faf9;
+  --color-secondary-600); }
+.bg-white { background-color: #ffffff;
+
+  /* Typography - Maintained from base */
+  --font-base: 'DM Sans', system-ui, sans-serif;
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-code: 'Fira Code', 'Courier New', monospace;
+  --font-size-base: 16px;
+
+  /* Spacing - Refined variation */
+  --space-2: 7px;
+  --space-4: 15px;
+  --space-5: 22px;
+  --space-6: 30px;
+  --space-7: 45px;
+  --space-8: 60px;
+  --space-9: 90px;
+  --space-10: 120px;
+  --space-11: 150px;
+  --space-12: 181px;
+
+  /* Border Styles - Enhanced */
+  --width: 3px;
+  --style: solid;
+  --radius-sm: 9px;
+  --radius-md: 13px;
+  --radius-lg: 18px;
+
+  /* Shadows - From base theme */
+  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+  /* Animations - Consistent timing */
+  --transition-duration: 0.3s;
+  --transition-easing: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Z-index layers */
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal-backdrop: 1040;
+  --z-modal: 1050;
+  --z-popover: 1060;
+  --z-tooltip: 1070;
+}
+
+/* Import base styles from original theme */
+/* Note: You may need to include the full component styles here */
+/* This variation focuses on color and spacing adjustments */
+
+/* ========================================
+   Enhanced Variations
+   ======================================== */
+
+/* Custom enhancements for this variation */
+.variation-badge {
+  background: linear-gradient(135deg, var(--color-primary-500), var(--color-secondary-500));
+  color: white;
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.variation-card {
+  background: linear-gradient(145deg, var(--color-bg-secondary), var(--color-bg-tertiary));
+  border: 2px solid var(--color-primary-200);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  box-shadow: var(--shadow-lg);
+  transition: all var(--transition-duration) var(--transition-easing);
+}
+
+.variation-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-2xl);
+  border-color: var(--color-primary-400);
+}
+
+/* Enhanced button variations */
+.btn-variation-primary {
+  background: linear-gradient(135deg, var(--color-primary-600), var(--color-primary-700));
+  border: none;
+  color: white;
+  padding: var(--space-3) var(--space-6);
+  border-radius: var(--radius-md);
+  font-weight: 500;
+  transition: all var(--transition-duration) var(--transition-easing);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-variation-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+  background: linear-gradient(135deg, var(--color-primary-700), var(--color-primary-800));
+}
+
+/* Variation-specific accent colors */
+.accent-variation-1 { color: var(--color-accent-500); }
+.accent-variation-2 { color: var(--color-secondary-600); }
+.bg-accent-variation { background-color: var(--color-accent-100); }
+
+/* Enhanced focus states for this variation */
+*:focus-visible {
+  outline: 3px solid var(--color-primary-400);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+
+/* ========================================
+   End of Prism Plus Vibe - Dark Theme
+   ======================================== */
